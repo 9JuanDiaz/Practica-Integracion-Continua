@@ -1,2 +1,8 @@
 // hello.js
-console.log("¡Hola, mundo!");
+
+function hello() {
+    console.log('¡Hola, mundo!');
+  }
+  
+  module.exports = hello;
+  
