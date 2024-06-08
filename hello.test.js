@@ -6,3 +6,4 @@ test('prints "¡Hola, mundo!" to the console', () => {
     hello();
     expect(spy).toHaveBeenCalledWith('¡Hola, mundo!');
 });
+ 
